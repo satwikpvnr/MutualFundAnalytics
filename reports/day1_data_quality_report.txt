@@ -1,0 +1,30 @@
+DAY 1 DATA QUALITY REPORT
+
+Datasets Loaded: 16
+Capstone Datasets: 10
+Live NAV Datasets: 6
+
+Fund Master Analysis:
+- Fund Houses: 10
+- Categories: 2
+- Sub Categories: 12
+- Risk Categories: 5
+
+AMFI Validation:
+- Fund Master Codes: 40
+- NAV History Codes: 40
+- Result: PASS
+
+Data Quality Findings:
+- 01_fund_master.csv: No missing values, no duplicates.
+- 02_nav_history.csv: 46,000 missing dates, 87 duplicate rows.
+- 03_aum_by_fund_house.csv: 90 missing dates, 1 duplicate row.
+- 04_monthly_sip_inflows.csv: 12 missing yoy_growth_pct values.
+- 10_benchmark_indices.csv: 8,050 missing dates, 20 duplicate rows.
+- Remaining datasets show no critical data quality issues.
+
+Status: DAY 1 COMPLETE
+
+Prepared By:
+Satwik
+Bluestock Fintech Capstone
