@@ -1,0 +1,53 @@
+DAY 2 DATA CLEANING & SQLITE REPORT
+
+Datasets Processed: 3
+Database Tables Created: 4
+SQLite Database: 1
+SQL Query Files: 1
+
+Data Cleaning Summary:
+
+* clean_nav.csv: 46,000 records processed, dates converted to datetime format, NAV values validated, duplicates removed.
+* clean_transactions.csv: 32,778 investor transactions cleaned, transaction types standardized (SIP/Lumpsum/Redemption), KYC status validated.
+* clean_performance.csv: 40 scheme performance records validated, expense ratios and Sharpe ratios checked.
+
+Database Design:
+
+* Tables Created: 4
+
+  * dim_fund
+  * fact_nav
+  * fact_transactions
+  * fact_performance
+
+Database Loading:
+
+* SQLite Database Created: bluestock_mf.db
+* NAV Records Loaded: 46,000
+* Transaction Records Loaded: 32,778
+* Performance Records Loaded: 40
+
+SQL Deliverables:
+
+* schema.sql created successfully.
+* queries.sql created with analytics queries.
+* Data Dictionary prepared and documented.
+
+Data Quality Findings:
+
+* clean_nav.csv: No missing values after cleaning.
+* clean_transactions.csv: Transaction types standardized successfully.
+* clean_performance.csv: No invalid expense ratios found.
+* Database loaded without errors.
+
+GitHub Status:
+
+* Day 2 commit completed.
+* Repository updated successfully.
+* SQLite database and cleaned datasets pushed to GitHub.
+
+Status: DAY 2 COMPLETE
+
+Prepared By:
+Satwik
+Bluestock Fintech Capstone

@@ -1,0 +1,28 @@
+DAY 3 EDA REPORT
+
+Charts Created: 9
+
+1. NAV Trend Analysis
+2. AUM Growth Analysis
+3. SIP Inflow Trend
+4. Category-wise Heatmap
+5. Investor Demographics
+6. Geographic Distribution
+7. Folio Growth
+8. Correlation Matrix
+9. Sector Allocation
+
+Key Insights:
+- Mutual fund NAVs showed strong long-term growth.
+- SBI Mutual Fund maintained the highest AUM.
+- SIP inflows reached ₹31,002 Cr by Dec 2025.
+- Retail participation nearly doubled from 13.26 Cr to 26.12 Cr folios.
+- Banking sector had the highest portfolio allocation (22%).
+- T30 cities contributed 66.3% of investor transactions.
+- Portfolio diversification reduced concentration risk.
+
+Status: DAY 3 COMPLETE
+
+Prepared By:
+Satwik
+Bluestock Fintech Capstone
