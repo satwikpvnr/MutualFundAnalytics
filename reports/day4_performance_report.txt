@@ -1,0 +1,62 @@
+DAY 4 PERFORMANCE ANALYTICS REPORT
+
+Datasets Used:
+- clean_nav.csv
+- benchmark_indices.csv
+- clean_performance.csv
+
+Performance Metrics Computed:
+- Daily Returns
+- Annualized Returns
+- CAGR
+- Sharpe Ratio
+- Sortino Ratio
+- Alpha
+- Beta
+- Maximum Drawdown
+- Composite Fund Score
+
+Top Performing Funds:
+
+1. AMFI 148567
+   - CAGR: 30.95%
+   - Sharpe Ratio: 1.448
+   - Alpha: 26.98%
+   - Max Drawdown: -11.27%
+
+2. AMFI 120843
+   - CAGR: 30.88%
+   - Sharpe Ratio: 1.307
+   - Alpha: 27.33%
+   - Max Drawdown: -12.97%
+
+3. AMFI 120505
+   - CAGR: 32.80%
+   - Sharpe Ratio: 1.180
+   - Alpha: 29.26%
+   - Max Drawdown: -18.19%
+
+Key Findings:
+
+- Top funds delivered CAGR above 30%.
+- Best Sharpe Ratio observed for AMFI 148567.
+- Sortino Ratios exceeded 2.0 for top ranked funds.
+- Alpha values above 25% indicate strong outperformance.
+- Most top funds maintained drawdowns below 20%.
+- Composite scoring successfully ranked funds using risk-adjusted performance.
+
+Files Generated:
+
+- returns_computed.csv
+- cagr_report.csv
+- sharpe_values.csv
+- sortino_values.csv
+- alpha_beta.csv
+- max_drawdown.csv
+- fund_scorecard.csv
+
+Status: DAY 4 COMPLETE
+
+Prepared By:
+Satwik
+Bluestock Fintech Capstone
